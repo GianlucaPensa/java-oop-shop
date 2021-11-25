@@ -11,7 +11,7 @@ public class Prodotto {
 	private int prezzo;
 	private int iva;
 	
-	private static Random generazioneCodice = null;
+	private static Random generazioneCodice;
 	
 	public Prodotto(int codice, int prezzo, int iva, String nome, String descrizione) {
 		this.codice = getRandom().nextInt(10000);
